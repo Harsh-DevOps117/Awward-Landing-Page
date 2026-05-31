@@ -102,7 +102,9 @@ const CaseStudyScroll = () => {
       {CASE_STUDIES.map((activeCase, index) => (
         <div
           key={activeCase.id}
-          ref={(el) => (slidesRef.current[index] = el)}
+          ref={(el) => {
+            slidesRef.current[index] = el;
+          }}
           className="absolute mt-10 mb-10 inset-0 w-full h-full flex items-center justify-center p-4 md:p-8 lg:p-12 will-change-transform bg-white "
         >
           <div className="max-w-340 w-full h-full lg:h-[90vh] max-h-full bg-white flex flex-col lg:flex-row shadow-[0_20px_50px_rgba(0,0,0,0.08)] rounded-4xl lg:rounded-[3rem] overflow-y-auto lg:overflow-hidden border border-gray-100">
