@@ -12,7 +12,7 @@ const OverlayComponent = () => {
       },
       {
         x: 0,
-        y: -2000,
+        y: -3000,
         duration: 2,
         ease: "linear",
       },
