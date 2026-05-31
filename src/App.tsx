@@ -4,6 +4,7 @@ import Lenis from "lenis";
 import { useEffect } from "react";
 import Navbar from "./components/Navbar";
 import OverlayComponent from "./components/OverlayComponent";
+import FourthPage from "./pages/FourthPAge";
 import HeroPage from "./pages/HeroPage";
 import ThirdPage from "./pages/ThirdPage";
 import VideoPage from "./pages/VideoPage";
@@ -38,6 +39,7 @@ const App = () => {
       <HeroPage />
       <VideoPage></VideoPage>
       <ThirdPage></ThirdPage>
+      <FourthPage></FourthPage>
       <div>
         <OverlayComponent />
       </div>
