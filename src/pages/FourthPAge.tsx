@@ -95,6 +95,7 @@ export default function FourthPage() {
           );
         },
       });
+      return () => ctx.revert();
     }, containerRef);
   };
 
