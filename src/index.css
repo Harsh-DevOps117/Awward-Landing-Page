@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+body,
+html {
+  background-color: #eae9e6;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+@font-face {
+  font-family: font;
+  src: url("./assets/fonts/698b360c6464fa98cd6300d8_PPEditorialNew-Regular.woff2")
+    format("woff2");
+}
+
+@font-face {
+  font-family: font1;
+  src: url("./assets/fonts/698b367178d4e9977aba5a81_PPNeueMontreal-Medium.woff2")
+    format("woff");
+}
+
+@font-face {
+  font-family: font2;
+  src: url("./assets/fonts/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2")
+    format("woff2");
+}
