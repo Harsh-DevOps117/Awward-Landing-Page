@@ -93,6 +93,7 @@ const HeroPage: React.FC = () => {
               lg:text-[5rem]
               leading-[0.9]
               -tracking-normal
+              z-10
 
             "
           >
@@ -111,6 +112,7 @@ const HeroPage: React.FC = () => {
               text-sm
               md:text-xl
               opacity-70
+              z-10
             "
           >
             We create brands, websites, and digital experiences that people
@@ -182,6 +184,7 @@ const HeroPage: React.FC = () => {
                 px-10
                 py-5
                 text-sm
+                z-10
                 uppercase
                 tracking-[0.15em]
                 flex

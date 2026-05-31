@@ -52,8 +52,8 @@ const FloatingComponent = ({
       style={{
         left: `${x}%`,
         top: 0,
-        width: `${180 * scale}px`,
-        height: `${240 * scale}px`,
+        width: `${150 * scale}px`,
+        height: `${200 * scale}px`,
         transform: `rotate(${rotation}deg)`,
       }}
     >
